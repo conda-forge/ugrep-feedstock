@@ -33,11 +33,6 @@ requirements:
     - xz
     - zstd
     - zlib
-  ignore_run_exports:
-    from_package:
-      - brotli
-      - libbrotlicommon
-      - libbrotlienc
 
 tests:
   - script:
