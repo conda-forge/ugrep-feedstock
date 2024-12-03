@@ -43,8 +43,8 @@ about:
   license: BSD-3-Clause
   license_file: LICENSE.txt
   summary: Ultra fast grep with query UI, fuzzy search, archive search, and more
-  home: https://github.com/Genivia/ugrep
   homepage: https://github.com/Genivia/ugrep
+  repository: https://github.com/Genivia/ugrep
 
 extra:
   recipe-maintainers:
