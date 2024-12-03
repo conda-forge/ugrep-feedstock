@@ -18,12 +18,16 @@ requirements:
     - ${{ compiler('c') }}
     - ${{ compiler('cxx') }}
     - ${{ stdlib('c') }}
+    - autoconf
+    - automake
+    - m4
     - make
     - pkg-config
   host:
     - brotli
     - bzip2
     - bzip3
+    - libtool
     - lz4-c
     - pcre2
     - xz
