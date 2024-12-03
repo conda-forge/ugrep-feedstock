@@ -1,0 +1,50 @@
+context:
+  version: 6.1.0
+
+package:
+  name: ugrep
+  version: ${{ version }}
+
+source:
+  url: https://github.com/Genivia/ugrep/archive/v${{ version }}.tar.gz
+  sha256: 587ebb694dd3d2f5bef9f35df5b9e196b89da981cfe1084539e55b8d9a62fd65
+
+build:
+  number: 0
+  skip: win
+
+requirements:
+  build:
+    - ${{ compiler('c') }}
+    - ${{ compiler('cxx') }}
+    - ${{ stdlib('c') }}
+    - autoconf
+    - automake
+    - m4
+    - make
+    - pkg-config
+  host:
+    - brotli
+    - bzip2
+    - bzip3
+    - libtool
+    - lz4-c
+    - pcre2
+    - xz
+    - zstd
+    - zlib
+
+tests:
+  - script:
+      - ugrep --version
+
+about:
+  license: BSD-3-Clause
+  license_file: LICENSE.txt
+  summary: Ultra fast grep with query UI, fuzzy search, archive search, and more
+  homepage: https://github.com/Genivia/ugrep
+  repository: https://github.com/Genivia/ugrep
+
+extra:
+  recipe-maintainers:
+    - danielnachun

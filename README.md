@@ -9,18 +9,13 @@ Package license: BSD-3-Clause
 
 Summary: Ultra fast grep with query UI, fuzzy search, archive search, and more
 
+Development: https://github.com/Genivia/ugrep
+
 Current build status
 ====================
 
 
-<table><tr>
-    <td>Travis</td>
-    <td>
-      <a href="https://app.travis-ci.com/conda-forge/ugrep-feedstock">
-        <img alt="linux" src="https://img.shields.io/travis/com/conda-forge/ugrep-feedstock/main.svg?label=Linux">
-      </a>
-    </td>
-  </tr>
+<table>
     
   <tr>
     <td>Azure</td>
