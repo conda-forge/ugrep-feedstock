@@ -1,5 +1,5 @@
 context:
-  version: "7.2.0"
+  version: "7.2.2"
 
 package:
   name: ugrep
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Genivia/ugrep/archive/v${{ version }}.tar.gz
-  sha256: c93fc62f30aedd42b3d0583df072bd506ecd1410df41353e92f84ce19b0b9364
+  sha256: 09aad04eb20f34ca6a9cc5626f04286b9ad722407b88581c5dabf2599a0bba93
 
 build:
   number: 0
