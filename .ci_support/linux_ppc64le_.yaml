@@ -23,7 +23,7 @@ docker_image:
 lz4_c:
 - '1.10'
 pcre2:
-- '10.44'
+- '10.45'
 target_platform:
 - linux-ppc64le
 xz:
