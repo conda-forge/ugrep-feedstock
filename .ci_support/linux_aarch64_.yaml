@@ -1,3 +1,5 @@
+DOCKER_PLATFORM:
+- linux/aarch64
 brotli:
 - '1.2'
 bzip2:
@@ -23,7 +25,7 @@ docker_image:
 lz4_c:
 - '1.10'
 pcre2:
-- '10.47'
+- '10.49'
 target_platform:
 - linux-aarch64
 xz:
