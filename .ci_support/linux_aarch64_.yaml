@@ -1,3 +1,5 @@
+DOCKER_PLATFORM:
+- linux/aarch64
 brotli:
 - '1.2'
 bzip2:
@@ -21,7 +23,7 @@ cxx_compiler_version:
 docker_image:
 - quay.io/condaforge/linux-anvil-aarch64:alma10
 lz4_c:
-- '1.10'
+- '1.11'
 pcre2:
 - '10.47'
 target_platform:
